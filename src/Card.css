@@ -1,0 +1,37 @@
+.Card {
+  background: black;
+  border: 5px dotted grey;
+  border-radius: 5px;
+  float: left;
+  font-size: 40px;
+  height: 80px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+}
+
+.match {
+  opacity: 0.25;
+}
+
+.jump.flip {
+  background: transparent;
+  border: 5px solid transparent;
+  color: transparent;
+  animation: jump 2s ease-out;
+}
+
+@keyframes jump {
+  0% {
+    color: red;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(20);
+  }
+}

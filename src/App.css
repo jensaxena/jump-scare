@@ -1,0 +1,24 @@
+.App {
+  background: black;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Nosifer', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-shadow: 5px 5px red;
+}
+
+p {
+  color: grey;
+  font-family: 'New Rocker', serif;
+  font-size: 18px;
+}

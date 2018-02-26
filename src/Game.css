@@ -1,0 +1,19 @@
+.Game {
+  margin: 0 auto;
+  width: 650px;
+}
+
+button {
+  background: radial-gradient(top center, grey, black);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px red;
+  color: black;
+  font-family: 'Nosifer', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 5vh auto;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
